@@ -1,3 +1,8 @@
+@media (orientation: landscape) { 
+  #background-image { background: url(maxresdefault.jpg) no-repeat; }
+    
+    @media (orientation: portrait) { 
+  #background-image { background: url(portrait.jpg) no-repeat; }
 
 
 img {
@@ -80,8 +85,3 @@ ul > li:hover {
     
 }
 
-@media (orientation: landscape) { 
-  #background-image { background: url(maxresdefault.jpg) no-repeat; }
-    
-    @media (orientation: portrait) { 
-  #background-image { background: url(portrait.jpg) no-repeat; }
