@@ -1,8 +1,11 @@
-
+body { 
+    margin:0;
+}
 
 
 img {
     position: relative;
+    margin-left: 25%
 
 }
 
@@ -21,6 +24,8 @@ h1  {
 
 .menu {
     list-style-type: none;
+    float: left;
+    width:25%;
     margin: 0;
     padding: 0; 
     border-top: 1px solid rgba(0,0,0,.3);
