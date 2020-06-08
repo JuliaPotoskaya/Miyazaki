@@ -1,0 +1,94 @@
+h1 {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+
+}
+
+img.young-hayao {
+   float: left;
+   display: block;
+   margin: 4%;
+
+}
+
+p {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Piedra', cursive;
+    font-family: 'Rokkitt', serif;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+p.hayao-facts-1 {
+    margin-top: 90px;
+    text-align: left;
+  
+}
+
+p.hayao-facts-2 {
+    text-align: left;
+
+}
+
+.studio-ghibli {
+   float: left;
+   display: block;
+   margin: 4%;
+}
+
+img.career {
+   float: left;
+   display: block;
+   margin: 4%;
+}
+
+.career-facts {
+    text-align: left;
+    margin-top: 90px;
+
+}
+
+.final-phrase {
+    position:absolute;
+    margin-left: 0px;
+}
+
+p.ghibli {
+    text-align: left;
+    margin-top: 90px;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing: initial;
+    width:75%;
+    margin:auto;
+    border: 1px solid grey;
+    line-height:25px;
+
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Piedra', cursive;
+    font-family: 'Rokkitt', serif;
+   
+}
+
+td {
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+    padding: 8px;
+}
+
+tr:hover td {
+    background: #ccddff;;
+}
+
+ 
