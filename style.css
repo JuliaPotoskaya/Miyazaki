@@ -20,9 +20,11 @@ h1  {
 
 .menu {
     list-style-type: none;
+    width:30%
     margin: 0;
     padding: 0; 
     border-top: 1px solid rgba(0,0,0,.3);
+    
  
     
 }
