@@ -1,0 +1,80 @@
+
+
+img {
+    position: relative;
+
+}
+
+h1  {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    width: 50%;
+    
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    color: #1E1B1B;
+    letter-spacing: 8px;
+     
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    border-top: 1px solid rgba(0,0,0,.3);
+ 
+    
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    color: #1E1B1B;
+    padding: 5px;
+    position: relative;
+    transition: .2s linear;
+
+}
+
+
+ul > li {
+font-size: 35px;
+left: 35px;
+color: #1E1B1B;
+}
+
+.menu a:active,
+.menu a:hover {
+    border: 1px solid #33ccff;  
+}
+
+ul > li:hover {
+    background: lavender;
+    color: white;
+}
+
+
+.biography {
+    position: absolute;
+    top:360px;
+    
+}
+
+.career {
+    position: absolute;
+    top: 410px;
+    
+}
+
+.studio {
+    position: absolute;
+    top:460px;
+    
+}
+
+.movies {
+    position: absolute;
+    top:510px;
+    
+}
