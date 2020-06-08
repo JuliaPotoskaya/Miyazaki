@@ -68,7 +68,7 @@ a {
 table {
     border-collapse:collapse;
     border-spacing: initial;
-    width:85%;
+    width:100%;
     margin:auto;
     border: 1px solid grey;
     line-height:25px;
