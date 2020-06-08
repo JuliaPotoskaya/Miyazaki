@@ -5,6 +5,13 @@ img {
 
 }
 
+@media screen and (min-device-width: 1600px) {
+    div {width: 800px;}
+   }
+   @media screen and (device-width: 1280px) {
+    div {width: 640px;}
+
+
 h1  {
     position: absolute;
     top: 20px;
@@ -17,11 +24,6 @@ h1  {
     letter-spacing: 8px;
      
 }
-@media screen and (min-device-width: 1600px) {
-    div {width: 800px;}
-   }
-   @media screen and (device-width: 1280px) {
-    div {width: 640px;}
 
 .menu {
     list-style-type: none;
