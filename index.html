@@ -3,12 +3,19 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8"> 
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-     <title>Hayao Miyazaki</title>
-    
-    <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hayao Miyazaki</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+   
+<style>
     @media (max-width: 1200px) {
       h1 { 
         display: flex;
@@ -31,7 +38,7 @@
     
     @media (max-width: 1200px) {
       ul > li {
-        font-size: 30px;
+        font-size: 25px;
         top: 50px;
       }
     }
@@ -72,22 +79,45 @@
 }
 @media (max-width: 1200px) {
   body {
-background-image:url(mobile2.jpg);
+background-image:url(img/mobile2.jpg);
 }
 }
     </style>
         </head>
         <body>
-     <img src="img/maxresdefault.jpg" width=100% alt = "Hayao Miyazaki"/>
-      <h1 class="open-phrase">Hayao Miyazaki <br>Biography,Movies <br>and Facts </h1>
-
-          <ul class="menu">
+          
+          
+            <div class="main-page"> 
+             
+               
+                <div class="carousel slide" data-ride="carousel" id="slides">
+                  <ul class="carousel-indicators">
+                    <li data-target="#slides" data-slide-to="0" class="active"></li>
+                    <li data-target="#slides" data-slide-to="1"></li>
+                    <li data-target="#slides" data-slide-to="2"></li>
+                  </ul>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/maxresdefault.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/carousel2.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/carousel.png">
+                    </div>
+                  </div>
+                </div>
+                <h1 class="open-phrase">Hayao Miyazaki <br>Biography,Movies <br>and Facts </h1>
+                <ul class="menu">
          
-              <li class="biography"><a href="life.html">Early Life</a></li>
-              <li class="career"><a href="career.html">Career</a></li>
-              <li class="studio"><a href="ghibli.html">Studio Ghibli</a></li>
-              <li class="movies"><a href="movies.html">Best movies</a></li>
-          </div>
-        </div>
+                  <li class="biography"><a href="file:///Users/julia/Desktop/project0/life.html">Early Life</a></li>
+                  <li class="career"><a href="file:///Users/julia/Desktop/project0/career.html">Career</a></li>
+                  <li class="studio"><a href="file:///Users/julia/Desktop/project0/ghibli.html">Studio Ghibli</a></li>
+                  <li class="movies"><a href="file:///Users/julia/Desktop/project0/movies.html">Best movies</a></li>
+              </div>
+            </div>
+    
+            
       </body>
     </html>
