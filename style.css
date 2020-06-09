@@ -1,35 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
 
-
-img {
-    position: relative;
-
+body, html {
+    width:100%;
+    height:100%;
+    font-family: 'Cinzel', serif;
 }
 
 
+img {
+    position:relative;
+}
+
 h1  {
+    display: flex;
     position: absolute;
     top: 20px;
     left: 35px;
-    width: 50%;
+   
     
-    font-family: 'Anton', sans-serif;
-    font-size: 60px;
-    color: #1E1B1B;
+    
+    font-size: 55px;
+    color: black;
     letter-spacing: 8px;
      
 }
 
 .menu {
+    float:left;
     list-style-type: none;
+    width:auto;
     margin: 0;
     padding: 0; 
     border-top: 1px solid rgba(0,0,0,.3);
+ 
+    
 }
 
 .menu a {
     text-decoration: none;
     display: block;
-    color: #1E1B1B;
+    color: black;
     padding: 5px;
     position: relative;
     transition: .2s linear;
@@ -38,9 +48,9 @@ h1  {
 
 
 ul > li {
-font-size: 35px;
+font-size: 30px;
 left: 35px;
-color: #1E1B1B;
+letter-spacing: 2px;
 }
 
 .menu a:active,
@@ -56,25 +66,35 @@ ul > li:hover {
 
 .biography {
     position: absolute;
-    top:360px;
+    top:260px;
     
 }
 
 .career {
     position: absolute;
-    top: 410px;
+    top: 310px;
     
 }
 
 .studio {
     position: absolute;
-    top:460px;
+    top:360px;
     
 }
 
 .movies {
     position: absolute;
-    top:510px;
+    top:410px;
     
 }
 
+.carousel-inner {
+    height: 800px;
+
+}
+
+.carousel-inner img {
+    transform: translateY(-10%);
+    width: 100%;
+    height: 100%;
+}
